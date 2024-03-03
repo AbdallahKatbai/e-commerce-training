@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar_Word.css";
 
-const NavBar_Word = (txt) => {
+const NavbarWord = ({txt}) => {
     return(
         <div className="navbar_word">
             <p className="txt">{txt}</p>
@@ -9,4 +9,4 @@ const NavBar_Word = (txt) => {
     )
 }
 
-export default NavBar_Word;
+export default NavbarWord;

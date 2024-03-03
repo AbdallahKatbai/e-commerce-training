@@ -1,0 +1,23 @@
+.navbar{
+    width: 100vw;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+.left_section{
+    margin: 50px;
+    width: 7%;
+}
+
+.right_section{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar_word {
+    
+}

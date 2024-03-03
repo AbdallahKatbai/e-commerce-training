@@ -1,24 +1,25 @@
 import React from "react";
-import NavBar_Word from "./navbar_words/NavBar_Word";
+import NavbarWord from "./navbar_words/NavbarWord";
 import "./NavBar.css";
-import NavBar_Logo from "./navbar_logo/NavBar_Logo";
+import logo from "../../assets/logo.png";
+import NavbarLogo from "./navbar_logo/NavbarLogo";
 
-const NavBar = () => {
+const Navbar = () => {
     return(
         <div className="navbar">
 
             <div className="left_section">
-                <NavBar_Logo url=""/>
+                <NavbarLogo url={logo}/>
             </div>
 
             <div className="right_section">
-                <NavBar_Word txt='Home' />
-                <NavBar_Word txt='abc' />
-                <NavBar_Word txt='cba'/>
+                <NavbarWord txt='Home' />
+                <NavbarWord txt='abc' />
+                <NavbarWord txt='cba'/>
             </div>
 
         </div>
     )
 }
 
-export default NavBar;
+export default Navbar;
